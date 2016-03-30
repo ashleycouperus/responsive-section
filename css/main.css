@@ -21,7 +21,7 @@ body {
   margin: 0;
 }
 
-article {
+section {
   margin-top: -1.5em;
   padding: .5em;
   padding-top: 2.5em;
@@ -37,12 +37,12 @@ header {
   margin-left: 1em;
 }
 
-h1 {
+section div h2 {
   font-weight: bold;
   font-size: 1.5rem;
 }
 
-p {
+section div p {
   margin-top: -1em;
   font-size: 100%;
   line-height: 1.3;
@@ -50,7 +50,7 @@ p {
 
 @media only screen and (min-width: 25em) {
 
-  p {
+  section div p {
     font-size: 110%;
     line-height: 1.4;
   }
@@ -58,7 +58,6 @@ p {
   img {
     width: 40%;
     padding-left: 1em;
-    }
   }
 }
 
@@ -68,7 +67,7 @@ p {
     width: 15%;
   }
 
-  .img-flex {
+  .image-flex {
     float: right;
   }
 }
